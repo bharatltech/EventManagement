@@ -54,7 +54,7 @@ const Home = () => {
       {/* Features Section in List View */}
       <section className="max-w-4xl mx-auto mb-20 space-y-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose EventEase?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose EvenetManagement?</h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
             Experience a smarter, faster, and more secure way to manage your events
           </p>
@@ -83,7 +83,7 @@ const Home = () => {
           Ready to Start Exploring?
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg">
-          Join thousands of users who trust EventEase for their event booking needs
+          Join thousands of users who trust EvenetManagement for their event booking needs
         </p>
         <button
           onClick={() => navigate('/events')}

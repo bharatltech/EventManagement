@@ -36,7 +36,7 @@ app.use('/api/bookings', bookingRoutes);
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'EventEase API is running',
+    message: 'EvenetManagement API is running',
     timestamp: new Date().toISOString()
   });
 });
@@ -77,7 +77,7 @@ const startServer = async () => {
     app.listen(PORT, () => {
       console.log(`
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚀 EventEase Server Started
+🚀 EvenetManagement Server Started
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📍 Server running on port: ${PORT}
 🌍 Environment: ${process.env.NODE_ENV || 'development'}

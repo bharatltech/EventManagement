@@ -1,7 +1,7 @@
 {
-  "name": "eventease-backend",
+  "name": "EvenetManagement-backend",
   "version": "1.0.0",
-  "description": "Backend API for EventEase - Event Booking Platform",
+  "description": "Backend API for EvenetManagement - Event Booking Platform",
   "main": "src/server.js",
   "scripts": {
     "start": "node server.js",

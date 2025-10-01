@@ -34,7 +34,7 @@ const Login = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Welcome Back</h1>
-          <p className="text-gray-600">Login to your EventEase account</p>
+          <p className="text-gray-600">Login to your EvenetManagement account</p>
         </div>
 
         {/* Card */}
@@ -98,7 +98,7 @@ const Login = () => {
 
         {/* Optional Illustration or Info */}
         <div className="mt-8 text-center text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} EventEase. All rights reserved.
+          &copy; {new Date().getFullYear()} EvenetManagement. All rights reserved.
         </div>
       </div>
     </div>
